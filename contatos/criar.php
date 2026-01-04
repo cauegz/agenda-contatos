@@ -38,7 +38,7 @@
 
             <div class="d-flex justify-content-center gap-4">
                 <button type="submit" class="btn btn-outline-light">Salvar</button>
-                <a href="../index.php" class="btn btn-outline-secondary">Voltar</a>
+                <a href="../index.php" class="btn btn-outline-danger">Voltar</a>
             </div>
         </form>
     </div>

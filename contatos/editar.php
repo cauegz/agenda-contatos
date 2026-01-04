@@ -26,7 +26,7 @@
 <body>
     <div class="position-absolute top-50 start-50 translate-middle w-50">
         <h1 class="text-center">Editar um contato na agenda</h1>
-        <form action="salvar.php" method="post" class="border p-4 rounded shadow">
+        <form action="salvar.php?id=<?= $id ?>" method="post" class="border p-4 rounded shadow">
 
             <div class="input-group mb-3">
                 <span class="input-group-text"><i class="fa-solid fa-user icon"></i></span>
@@ -54,7 +54,7 @@
 
             <div class="d-flex justify-content-center gap-4">
                 <button type="submit" class="btn btn-outline-light">Salvar</button>
-                <a href="../index.php" class="btn btn-outline-secondary">Voltar</a>
+                <a href="../index.php" class="btn btn-outline-danger">Voltar</a>
             </div>
         </form>
     </div>
